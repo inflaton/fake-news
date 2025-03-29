@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+glove.6B.100d.txt
+glove.6B.300d.txt
+nohup.out
