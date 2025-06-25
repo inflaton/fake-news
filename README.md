@@ -107,17 +107,17 @@ Brief Description of dataset containing csv files:
 ---
 ## Description of notebooks
 
-── llm_experiments<br>
+### llm_experiments <br>
 │ ├── `model.ipynb` For each model, there is a notebook which contains the pipeline for data preprocessing, training and evaluation. <br> 
 │ ├── `model_results.ipynb` Similarly, each model has a corresponding notebook used to generate the results for the model's performance on each dataset.<br> 
 │ ├── `utils.py` This script is used in model_results to replicate the result generation process for each model. 
-├──llm_toolkit <br>
+### llm_toolkit <br>
 | |── `eval_openai.py` Script for using Qwen2.5-7B to rewrite the news entries. <br>
 | |── `llm_utils.py`  <br>
-├──model_experiments<br>
-Initial experiments for models, can ignore. <br> 
-├──processing_experiments<br>
-│ ├── `booster_words.ipynb` Booster words with CountVectorizer to baseline models<br>
+### model_experiments <br>
+| |── Initial experiments for models, can ignore. <br> 
+### processing_experiments <br>
+│ ├── `booster_words.ipynb` Booster words with CountVectorizer to baseline models. <br>
 │ ├── `count_vectoriser.ipynb` CountVectorizer to baseline models<br>
 │ ├── `lemmatisation.ipynb` Lemmatisation to baseline models<br>
 │ ├── `stemming.ipynb` Porter Stemmer to baseline models<br>
@@ -137,4 +137,12 @@ This project was developed by:
   [ORCID] (0000−0002−5361−8344)
 - Erik Cambria 
   [ORCID] (0000−0002−3030−1280)
+
+---
+
+## Paper
+
+You can read our full paper here:  
+[📄 Evaluating the Impact of LLM-Manipulated Content on Fake News Detection (PDF)](./paper_final.pdf)
+
 ---
