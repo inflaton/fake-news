@@ -107,20 +107,23 @@ Brief Description of dataset containing csv files:
 ---
 ## Description of notebooks
 
-### llm_experiments <br>
-│ ├── `model.ipynb` For each model, there is a notebook which contains the pipeline for data preprocessing, training and evaluation. <br> 
-│ ├── `model_results.ipynb` Similarly, each model has a corresponding notebook used to generate the results for the model's performance on each dataset.<br> 
-│ ├── `utils.py` This script is used in model_results to replicate the result generation process for each model. 
-### llm_toolkit <br>
-| |── `eval_openai.py` Script for using Qwen2.5-7B to rewrite the news entries. <br>
-| |── `llm_utils.py`  <br>
-### model_experiments <br>
-| |── Initial experiments for models, can ignore. <br> 
-### processing_experiments <br>
-│ ├── `booster_words.ipynb` Booster words with CountVectorizer to baseline models. <br>
-│ ├── `count_vectoriser.ipynb` CountVectorizer to baseline models<br>
-│ ├── `lemmatisation.ipynb` Lemmatisation to baseline models<br>
-│ ├── `stemming.ipynb` Porter Stemmer to baseline models<br>
+### `llm_experiments` <br>
+- `model.ipynb` For each model, there is a notebook which contains the pipeline for data preprocessing, training and evaluation. <br> 
+- `model_results.ipynb` Similarly, each model has a corresponding notebook used to generate the results for the model's performance on each dataset.<br> 
+- `utils.py` This script is used in model_results to replicate the result generation process for each model. 
+
+### `llm_toolkit` <br>
+- `eval_openai.py` Script for using Qwen2.5-7B to rewrite the news entries. <br>
+- `llm_utils.py`  <br>
+
+### `model_experiments` <br>
+- Initial experiments for models, can ignore. <br> 
+
+### `processing_experiments` <br>
+- `booster_words.ipynb` Booster words with CountVectorizer to baseline models. <br>
+- `count_vectoriser.ipynb` CountVectorizer to baseline models<br>
+- `lemmatisation.ipynb` Lemmatisation to baseline models<br>
+- `stemming.ipynb` Porter Stemmer to baseline models<br>
 ---
 
 ## Contributors
